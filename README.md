@@ -1,8 +1,11 @@
 # CS2 Knife Selector
 Lets you choose and use a knife in game with !knife command.
 
-## Requirments
-[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
+> [!CAUTION]
+> This plugin may trigger GSLT ban or similar bans. Use it at your own risk!
+
+## Requirements
+- [CounterStrikeSharp - Min v126](https://github.com/roflmuffin/CounterStrikeSharp)
 
 ## Installation
 - Download the latest release from [releases page](https://github.com/spancer35/CS2-KnifeSelector/releases)
@@ -15,15 +18,18 @@ Lets you choose and use a knife in game with !knife command.
 - Easy to add new knifes after new knife being introduced to game.
 - Multiple languages
   
-## TODO
+> Please not that plugin is setting **mp_t_default_melee** and **mp_ct_default_melee** to empty values to prevent some maps to blocking giving knifes at spawn
+
+## TODOs
 - Add radio menu features as soon as it's added to CS2
   
 ## Known Issues
 - Plugin is not working on Windows servers.
 
-# Special Thanks
+### Credits
 - Abner for translations method
 - Nereziel for original idea
+
 
 ### Plugin Configs
 dir: **addons/counterstrikesharp/configs/plugins/KnifeSelector/KnifeSelector.json**
