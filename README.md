@@ -4,19 +4,26 @@ Lets you choose and use a knife in game with !knife command.
 ## Requirments
 [CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
 
+## Installation
+- Download the latest release from [releases page](https://github.com/spancer35/CS2-KnifeSelector/releases)
+- Extract the zip to plugins folder
+- Modify **addons\counterstrikesharp\configs\plugins\KnifeSelector\KnifeSelector.json**
+
 ## Features
 - Saves user knife preferences to a DB (via SQLite)
 - Checks if user member of specified steam group, if not user can't use !knife (this feature can be disabled in config)
 - Easy to add new knifes after new knife being introduced to game.
 - Multiple languages
+  
 ## TODO
 - Add radio menu features as soon as it's added to CS2
+  
 ## Known Issues
 - Plugin is not working on Windows servers.
 
 # Special Thanks
 - Abner for translations method
-- Nereziel
+- Nereziel for original idea
 
 ### Plugin Configs
 dir: **addons/counterstrikesharp/configs/plugins/KnifeSelector/KnifeSelector.json**
@@ -25,7 +32,7 @@ dir: **addons/counterstrikesharp/configs/plugins/KnifeSelector/KnifeSelector.jso
   "server_prefix": "[Server/Clan Name]",
   "server_language": "en",
   "check_steam_group": true,
-  "steam_group_id": "xxxxxxxxxxxxxxxxx",
+  "steam_group_id": "xxxxxxxxxxxxxxxxx", //Put your Steam GROUP's 64ID. You can find it here > https://steamcommunity.com/groups/<YOUR GROUP>/memberslistxml/?xml=1
   "knife_command": "knife",
   "knifelist_command": "knifelist",
 }
