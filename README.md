@@ -25,11 +25,14 @@ Lets you choose and use a knife in game with !knife command.
   
 ## Known Issues
 - Plugin is not working on Windows servers.
+- Please feel free to report me issues you find. discord @huesebio
 
 ### Credits
 - Abner for translations method
 - Nereziel for original idea
 
+
+> Feel free to ask me about plugin discord @huesebio
 
 ### Plugin Configs
 dir: **addons/counterstrikesharp/configs/plugins/KnifeSelector/KnifeSelector.json**
