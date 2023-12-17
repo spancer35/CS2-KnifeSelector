@@ -151,7 +151,6 @@ public class KnifeSelector : BasePlugin, IPluginConfig<Config>
         .Where(p => p.SteamID == steamid)
         .FirstOrDefault();
         if (steamid == null) return false;
-        //ulong steamid8 = Convert.ToUInt64(Config.SteamGroupID, 16) - 103582791429521408;
         using (HttpClient client = new HttpClient())
         {
         // get the current time as a timestamp
@@ -190,8 +189,8 @@ public class KnifeSelector : BasePlugin, IPluginConfig<Config>
                 }
                 catch (XmlException ex)
                 {
-                    // handle the error
-                    Server.PrintToConsole("XML failed to load: " + ex.Message);
+                    Server.NextFrame(() => {Server.PrintToConsole("XML failed to load: " + ex.Message);
+                    });
                     return false;
                 }
             }else{
