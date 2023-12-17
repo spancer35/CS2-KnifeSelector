@@ -21,7 +21,7 @@ Lets you choose and use a knife in game with !knife command.
 ## Known Issues
 - Plugin is not working on Windows servers.
 
-# Special Thanks
+### Special Thanks
 - Abner for translations method
 - Nereziel for original idea
 
