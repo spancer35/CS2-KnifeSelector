@@ -18,6 +18,8 @@ Lets you choose and use a knife in game with !knife command.
 - Easy to add new knifes after new knife being introduced to game.
 - Multiple languages
   
+> Please not that plugin is setting **mp_t_default_melee** and **mp_ct_default_melee** to empty values to prevent some maps to blocking giving knifes at spawn
+
 ## TODOs
 - Add radio menu features as soon as it's added to CS2
   
