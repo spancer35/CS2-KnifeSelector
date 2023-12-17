@@ -4,6 +4,7 @@ using System.Xml.Linq;
 using CounterStrikeSharp.API;
 using CounterStrikeSharp.API.Core;
 using CounterStrikeSharp.API.Core.Attributes.Registration;
+using CounterStrikeSharp.API.Core.Attributes;
 using CounterStrikeSharp.API.Modules.Commands;
 using CounterStrikeSharp.API.Modules.Utils;
 using Newtonsoft.Json.Linq;
@@ -12,6 +13,8 @@ using CounterStrikeSharp.API.Modules.Cvars;
 
 namespace KnifeSelector;
 
+
+[MinimumApiVersion(126)]
 public class KnifeSelector : BasePlugin, IPluginConfig<Config>
 {
     public override string ModuleName  => "Knife Selector";
