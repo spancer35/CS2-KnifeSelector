@@ -4,7 +4,7 @@ Lets you choose and use a knife in game with !knife command.
 > [!CAUTION]
 > This plugin may trigger GSLT ban or similar bans. Use it at your own risk!
 
-## Requirments
+## Requirements
 - [CounterStrikeSharp - Min v126](https://github.com/roflmuffin/CounterStrikeSharp)
 
 ## Installation
@@ -18,13 +18,13 @@ Lets you choose and use a knife in game with !knife command.
 - Easy to add new knifes after new knife being introduced to game.
 - Multiple languages
   
-## TODO
+## TODOs
 - Add radio menu features as soon as it's added to CS2
   
 ## Known Issues
 - Plugin is not working on Windows servers.
 
-### Special Thanks
+### Credits
 - Abner for translations method
 - Nereziel for original idea
 
