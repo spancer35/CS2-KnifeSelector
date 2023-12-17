@@ -1,8 +1,11 @@
 # CS2 Knife Selector
 Lets you choose and use a knife in game with !knife command.
 
+> [!CAUTION]
+> This plugin may trigger GSLT ban or similar bans. Use it at your own risk!
+
 ## Requirments
-[CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
+- [CounterStrikeSharp - Min v126](https://github.com/roflmuffin/CounterStrikeSharp)
 
 ## Installation
 - Download the latest release from [releases page](https://github.com/spancer35/CS2-KnifeSelector/releases)
@@ -24,6 +27,7 @@ Lets you choose and use a knife in game with !knife command.
 ### Special Thanks
 - Abner for translations method
 - Nereziel for original idea
+
 
 ### Plugin Configs
 dir: **addons/counterstrikesharp/configs/plugins/KnifeSelector/KnifeSelector.json**
