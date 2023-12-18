@@ -29,8 +29,9 @@ Lets you choose and use a knife in game with !knife command.
 - Please feel free to report me issues you find. discord @huesebio
 
 ### Credits
-- Abner for translations method
+- BMathers for his helps and optimizing the code
 - Nereziel for original idea
+  
 
 
 > Feel free to ask me about plugin discord @huesebio
