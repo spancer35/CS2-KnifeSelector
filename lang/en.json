@@ -1,0 +1,11 @@
+{
+  "ks.ServerPrefix": "{LIGHTRED} Server/Clan name{DEFAULT}",
+  "ks.UserNotInSteamGroup": "{GREEN} You're not member of our steam group. Please join our group then try again.",
+  "ks.UserProfileNotPublic": "{GREEN} Your profile is not public. Please set your profile to public and try again.",
+  "ks.UserCantUseCommand": "{GREEN} You're not able to use this command right now.",
+  "ks.UnknownKnife": "{GREEN} Invalid Knife Name \u2029Want a list? Try !{0}",
+  "ks.SeeConsoleOutput": "{GREEN} See console for the output.",
+  "ks.SelectedKnife": "{DEFAULT} Selected: {GREEN}{0}",
+  "ks.UserSpammed": "{GREEN} Do not spam. Wait for a while to use the command again.",
+  "ks.ConsoleInstructor": "You can use the knives listed below. i.e. :"
+}

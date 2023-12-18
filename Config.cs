@@ -6,12 +6,6 @@ namespace KnifeSelector;
 
 public class Config : BasePluginConfig
 {
-    [JsonPropertyName("server_prefix")]
-    public string ServerPrefix { get; set; } = "CLAN OR SERVER NAME";
-
-    [JsonPropertyName("server_language")]
-    public string ServerLanguage { get; set; } = "en";
-
     [JsonPropertyName("check_steam_group")]
     public bool CheckSteamGroup { get; set; } = true;
 
