@@ -22,7 +22,7 @@ Lets you choose and use a knife in game with !knife command.
 
 ## TODOs
 - Add radio menu features as soon as it's added to CS2
-- Change localization method
+- ~~Change localization method~~
   
 ## Known Issues
 - Plugin is not working on Windows servers.
