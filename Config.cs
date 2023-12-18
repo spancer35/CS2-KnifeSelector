@@ -1,6 +1,5 @@
 using System.Text.Json.Serialization;
 using CounterStrikeSharp.API.Core;
-using CounterStrikeSharp.API.Modules.Utils;
 
 namespace KnifeSelector;
 
@@ -10,7 +9,7 @@ public class Config : BasePluginConfig
     public bool CheckSteamGroup { get; set; } = true;
 
     [JsonPropertyName("steam_group_id")]
-    public string SteamGroupID { get; set; } = "xxxxxxxxxxxxxxxxx";
+    public string SteamGroupId { get; set; } = "xxxxxxxxxxxxxxxxx";
 
     [JsonPropertyName("knife_command")]
     public string KnifeCommand { get; set; } = "knife";
