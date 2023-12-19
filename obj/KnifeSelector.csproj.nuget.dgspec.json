@@ -38,6 +38,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "CounterStrikeSharp.API": {
+              "target": "Package",
+              "version": "[1.0.126, )"
+            },
             "Dapper": {
               "target": "Package",
               "version": "[2.1.21, )"
