@@ -1,0 +1,11 @@
+{
+    "ks.ServerPrefix": "{LIGHTRED} Sunucu/Klan Adı{DEFAULT}",
+    "ks.UserNotInSteamGroup": "{GREEN} Görünüşe göre grubumuza üye değilsin. Lütfen grubumuza katıl ve tekrar dene.",
+    "ks.UserProfileNotPublic": "{GREEN} Profilin herkese açık değil. Lütfen profilini herkese aç ve tekrar dene.",
+    "ks.UserCantUseCommand": "{GREEN} Şu anda bu komutu kullanamazsın.",
+    "ks.UnknownKnife": "{GREEN} Bıçak bulunamadı. \u2029Liste için !{0} yaz",
+    "ks.SeeConsoleOutput": "{GREEN} Çıktı için konsola bak.",
+    "ks.SelectedKnife": "{DEFAULT} Seçilen bıçak: {GREEN}{0}",
+    "ks.UserSpammed": "{GREEN} Lütfen spam yapmayın. Biraz bekleyin ve tekrar deneyin.",
+    "ks.ConsoleInstructor": "Aşağıdaki bıçakları kullanabilirsiniz. örn: :"
+  }
