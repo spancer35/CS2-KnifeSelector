@@ -41,11 +41,14 @@ dir: **addons/counterstrikesharp/configs/plugins/KnifeSelector/KnifeSelector.jso
 ```json {
 {
   "check_steam_group": true,
-  "steam_group_id": "xxxxxxxxxxxxxxxxx", //Put your Steam GROUP's 64ID. You can find it here > https://steamcommunity.com/groups/<YOUR GROUP>/memberslistxml/?xml=1
+  "steam_group_id": "xxxxxxxxxxxxxxxxx", //Put your Steam GROUP's 64ID***
   "knife_command": "knife",
   "knifelist_command": "knifelist",
 }
 ```
+> *** You can find your group's Steam64ID here > https://steamcommunity.com/groups/YOURGROUP/memberslistxml/?xml=1
+
+
 dir: **addons/counterstrikesharp/plugins/KnifeSelector/addons/counterstrikesharp/plugins/KnifeSelector/knifenames.json**
 ```json
 {
